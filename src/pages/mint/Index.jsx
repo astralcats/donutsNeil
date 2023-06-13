@@ -123,7 +123,7 @@ const Mint = () => {
                 </p>
               </button>
               <p className="text-secondary uppercase text-center text-lg 2xl:text-xl">
-                0.1 BNB
+                0.025
               </p>
             </div>
             <div className="flex justify-start items-center flex-col gap-3">
@@ -137,7 +137,7 @@ const Mint = () => {
                 </p>
               </button>
               <p className="text-secondary uppercase text-center text-lg 2xl:text-xl">
-                1 BNB
+                0.28
               </p>
             </div>
           </div>
