@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Tenar";
+  src: url("/fonts/TenarBlack-lglE0.otf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary;
+  }
+}
