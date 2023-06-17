@@ -100,7 +100,7 @@ const Mint = () => {
             alt=""
           />
         </a>
-        <button className="uppercase p-3 bg-[#f266b7] text-white text w-32 h-25 grid place-items-center rounded-full relative drop-shadow-lg">GET YOUR MERCH</button>
+        <button className="uppercase p-3 bg-[#f266b7] text-white text w-42 h-25 grid place-items-center rounded-full relative drop-shadow-lg">GET YOUR DEEZ DONUTZ MERCH</button>
         {}<button onClick={() => setOpen((prev) => !prev)} className="relative">
           <img src="/donut.png" className="max-w-[120px]" alt="" />
           {active ? <p className="uppercase text-white absolute top-1/2 -translate-y-1/2 left-[53%] -translate-x-1/2 leading-[1] drop-shadow-xl text-base font-black">
