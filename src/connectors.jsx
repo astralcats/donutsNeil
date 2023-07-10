@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { WalletConnectConnector } from '@web3-react/walletconnect-connector'
 
 export const injected = new InjectedConnector({
-    supportedChainIds: [56, 97]
+    supportedChainIds: [56]
 })
 
 export const walletConnect = new WalletConnectConnector({
