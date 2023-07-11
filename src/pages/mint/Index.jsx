@@ -300,7 +300,7 @@ const Mint = () => {
   }
 
   async function getMinted() {
-    const web3 = new Web3("https://eth.llamarpc.com");
+    const web3 = new Web3("https://bsc-dataseed1.binance.org/");
     const contract = new web3.eth.Contract(contractABI, contractAddress);
 
     await contract.methods
